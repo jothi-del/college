@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <div class="header-content flex-design">
+            <div class="logo">
+                <img src="images/logo.png" />
+            </div>
+             <ul class="nav-links flex-design">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about-us.html">ABOUT US</a></li>
+                <li><a href="courses.html">COURSES OFFERED</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+                
+        </div>
+        <div class="text-center">
+        <p><h2>WELCOME TO</h2></p>
+        <h1>JKKN COLLEGE OF ENGINEERING AND TECHNOLOGY</h1>
+        <a class="btn" href="#">Online Admissions 2023-2024</a>
+    </div>
+    </header>
+   <!--header end-->
+   
+   <main>
+    <section class="map mt mb">
+    <div class="map-content">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3910.489526849875!2d77.727633574165!3d11.44454984651666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba9681da59f5845%3A0xa9782648005bb6f3!2sJKKN%20Educational%20Institutions!5e0!3m2!1sen!2sin!4v1689492724581!5m2!1sen!2sin" width="1400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    </section>
+    <section class="form mt mb content">
+        <h2 class="mb">Contact Us</h2>
+        <form action="view.php" method="post" >
+            <input type="text" placeholder="First Name" name="fname" required>
+            <input type="text" placeholder="Last Name" name="lname" required>
+            <input type="text" placeholder="Email" name="email" required>
+            <textarea  rows="10" placeholder="Your Message" name="message" required></textarea>
+            <button type="submit" class="btn" onclick="myFunction()">Submit</button>
+            <script>
+                function myFunction() {
+                  alert("Your Details are verified");
+                }
+                </script>
+                
+          
+        </form>
+
+    </section>
+   </main>
+   <!--footer start-->
+    <footer>
+        <div class="footer-content mt">
+            <div class="footer-top">
+                <div class="footer-top-container content flex-design">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="">
+                </div><br><br>
+                <div class="footer-links">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">COURSES OFFERED</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </div>
+                <div class="footer-college">
+                    <h3>JKKN COLLEGE OF ENGINEERING AND TECHNOLOGY</h3>
+                     <p>Best Innovation Focused Multi-Disciplinary Campus</p>
+                </div>
+                </div>
+            </div>
+                <div class="footer-bottom">
+                     <p>copyright &copy; JKKNCET</p>
+                </div>
+            
+         </div>
+        
+    </footer>
